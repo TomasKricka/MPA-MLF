@@ -27,7 +27,7 @@ for file_test in test_data:
 
 
 print("tady hotovo")
-print("Dan x_test")
+
 
 print("tady hotovo")
 
@@ -35,12 +35,12 @@ for file_train in train_data:
     x_train_data = pd.read_csv(file_train, index_col=None)
     x_train_mat.append(x_train_data)
 
-print("Dan x_train")
+print("done x_train")
 
 
 
 np.save("D:/Pragraming/Dataset/x_test_all", x_test_mat)
 np.save("D:/Pragraming/Dataset/x_train_all", x_train_mat)
 
-print("hej vole hotovo !!")
+print("hotovo !!")
     
